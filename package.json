@@ -1,0 +1,23 @@
+{
+  "name": "prototyping-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for front-end prototyping with no build system",
+  "main": "/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtis/prototyping-boilerplate.git"
+  },
+  "author": "Douglas Johnson <doug@thought.is>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thoughtis/prototyping-boilerplate/issues"
+  },
+  "homepage": "https://github.com/thoughtis/prototyping-boilerplate#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

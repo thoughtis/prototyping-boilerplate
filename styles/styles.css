@@ -1,0 +1,39 @@
+/**
+ * Prototyping Boilerplate
+ */
+
+:root{
+	--line-height-base: 1.5;
+	--line-height-heading: 1.25;
+}
+
+/**
+ * Box Model
+ */
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+/**
+ * Override opinionated normalize.css line-heights
+ */
+
+html,
+button,
+input,
+optgroup,
+select,
+textarea{
+	line-height: var(--line-height-base);
+}
+
+h1 {
+	line-height: var(--line-height-heading);
+}
