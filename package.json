@@ -1,6 +1,6 @@
 {
   "name": "prototyping-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Boilerplate for front-end prototyping with no build system",
   "main": "/js/app.js",
   "scripts": {
