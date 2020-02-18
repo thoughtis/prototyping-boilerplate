@@ -15,7 +15,7 @@ It makes the assumption that you are using a modern browser which supports both 
 
 ### HTTP Server
 
-- If you have PHP or Python installed, you can use their built in HTTP server without install anything else.
+- If you have PHP or Python installed, you can use their built in HTTP server without installing anything else.
 - Otherwise
   - `$ npm install`
   - `$ npm run start` to serve locally using `http-server`
