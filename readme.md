@@ -18,6 +18,8 @@ It makes the assumption that you are using a modern browser which supports both 
 - If you have PHP or Python installed, you can use their built in HTTP server without installing anything else.
 - Otherwise
   - `npm install`
+  - `npm install -g local-web-server` 
+    * (`local-web-server` uses [`lws`](https://github.com/lwsjs/lws) cli and needs to be installed globally for cli command `ws` to be recognized)
   - `npm run start` to serve locally using `local-web-server`
   - `ws --help` for cli commands and settings
     * Additional CLI usage guide [HERE](https://github.com/lwsjs/local-web-server/wiki/CLI-usage)
