@@ -13,12 +13,14 @@ It makes the assumption that you are using a modern browser which supports both 
 
 - `$ git clone https://github.com/thoughtis/prototyping-boilerplate.git your-project-name`
 
-### HTTP Server
+### Local Web Server
 
 - If you have PHP or Python installed, you can use their built in HTTP server without installing anything else.
 - Otherwise
-  - `$ npm install`
-  - `$ npm run start` to serve locally using `http-server`
+  - `npm install`
+  - `npm run start` to serve locally using `local-web-server`
+  - `ws --help` for cli commands and settings
+    * Additional CLI usage guide [HERE](https://github.com/lwsjs/local-web-server/wiki/CLI-usage)
 
 ## Scripting
 
