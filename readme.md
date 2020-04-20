@@ -19,8 +19,7 @@ It makes the assumption that you are using a modern browser which supports both 
 - Otherwise
   - `npm install`
   - `npm run start` to serve locally using `local-web-server`
-  - `ws --help` for cli commands and settings
-    * Additional CLI usage guide [HERE](https://github.com/lwsjs/local-web-server/wiki/CLI-usage)
+    * Additional usage guide [HERE](https://github.com/lwsjs/local-web-server/wiki/CLI-usage)
 
 ## Scripting
 
