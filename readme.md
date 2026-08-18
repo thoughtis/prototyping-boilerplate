@@ -11,20 +11,19 @@ It makes the assumption that you are using a modern browser which supports both 
 
 ## Get Started
 
-- `$ git clone https://github.com/thoughtis/prototyping-boilerplate.git your-project-name`
+- `$ git clone https://github.com/douglas-johnson/prototyping-boilerplate.git your-project-name`
 
 ### Local Web Server
 
-- If you have PHP or Python installed, you can use their built in HTTP server without installing anything else.
-- Otherwise
+- Live Preview in VS Code works pefectly well.
+- If you have [Python](https://docs.python.org/3/library/http.server.html#command-line-interface) or [PHP](https://www.php.net/manual/en/features.commandline.webserver.php) installed, you can use their built in HTTP server without installing anything else.
+- Otherwise to serve locally using `local-web-server`
   - `npm install`
-  - `npm run start` to serve locally using `local-web-server`
+  - `npm run start`
 
 ## Scripting
 
-This boilerplate uses ECMAScript Modules in the browser. See [this post](https://jakearchibald.com/2017/es-modules-in-browsers/) on Jake Archibald's blog for more info on how to use them this way.
-
-> Note: My example modules use strict mode in each module. This is a personal choice and may not be required.
+This boilerplate uses ECMAScript Modules in the browser.
 
 ## Styling
 
