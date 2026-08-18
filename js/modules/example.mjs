@@ -2,8 +2,6 @@
  * Example Module
  */
 
-'use strict';
-
 /**
  * Main
  */
